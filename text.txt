@@ -1,0 +1,34 @@
+JWT json web token 
+
+
+header.payload.signature
+
+
+//token example
+
+header = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+payload =eyJpZCI6IjZhMmZjMmNkZmNkYzRjYTMzOGJiZTM0NSIsImVtYWlsIjoidGVzdHVzZXJAZ21haWwuY29tIiwicm9sZSI6Im1vZGVyYXRvciIsImlhdCI6MTc4MTc4NDkxNiwiZXhwIjoxNzgxODcxMzE2fQ
+sig = aC28heMof0DRvUCE-CIKB1xTBJQdkcHbVNrf2xeG_sI
+
+
+
+JWT Token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMmZjMmNkZmNkYzRjYTMzOGJiZTM0NSIsImVtYWlsIjoidGVzdHVzZXJAZ21haWwuY29tIiwicm9sZSI6Im1vZGVyYXRvciIsImlhdCI6MTc4MTc4NDkxNiwiZXhwIjoxNzgxODcxMzE2fQ.aC28heMof0DRvUCE-CIKB1xTBJQdkcHbVNrf2xeG_sI
+
+
+email =use@gmail.com 
+pass = password
+
+
+
+(frontend) -JWT-- (backend + DB)
+
+
+
+bcryptjs = for hashing password
+
+
+Authentication vs Authorization:
+
+Authentication -  Login, Who are you?
+
+Authorization -  Admin, user, Is it allowed?
