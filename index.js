@@ -11,6 +11,9 @@ app.get("/",(req,res)=>{
 
 
 app.use('/api/auth', require('./Router/auth.router'));
+
+app.use('/api/rbac', require('./Router/rbac.router'));
+
 app.use('/api', require('./Router/user.router'));
 
 db.connection.on('connected', () => console.log('MongoDB connected'));
