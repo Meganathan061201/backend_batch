@@ -32,3 +32,52 @@ Authentication vs Authorization:
 Authentication -  Login, Who are you?
 
 Authorization -  Admin, user, Is it allowed?
+
+
+
+
+
+
+
+Recommended Teaching Order (40–50 Classes)
+1. Backend Fundamentals
+2. JavaScript (Backend Concepts)
+3. Node.js Basics
+4. Core Node Modules
+5. Express.js
+6. Routing
+7. Middleware
+8. REST API
+9. MongoDB
+10. Mongoose
+11. CRUD APIs
+12. Authentication (JWT + bcryptjs)
+13. Authorization (RBAC)
+14. Validation
+15. File Upload (Multer)
+16. Error Handling
+17. Environment Variables
+18. Security
+19. Email (OTP & Password Reset)
+20. Pagination, Search & Filter
+21. Aggregation
+22. Swagger
+23. Socket.IO
+24. Redis (Basics)
+25. Testing (Jest + Supertest)
+26. Deployment
+27. Git & GitHub
+28. Final Capstone Project    
+
+
+
+  Module 1: Security Fundamentals (CIA Triad, HTTPS, Authentication vs Authorization)
+* Module 2: Password Security (bcrypt)
+* Module 3: JWT Authentication & Authorization
+* Module 4: Input Validation & Sanitization
+* Module 5: Helmet, CORS, Cookies, Sessions
+* Module 6: Common Attacks (XSS, CSRF, SQL/NoSQL Injection, Brute Force)
+* Module 7: Rate Limiting, File Upload Security
+* Module 8: Reverse Proxy, Load Balancer, CDN, Firewall
+* Module 9: Logging, Monitoring, Audit Logs
+* Module 10: Production Security (Docker, Secrets, Vulnerability Scanning, OWASP Top 10)
